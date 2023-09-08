@@ -1,0 +1,232 @@
+<!-- Ini adalah deklarasi tipe dokumen HTML yang digunakan. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Di bagian kepala, kita menambahkan beberapa meta-informasi dan tautan ke file eksternal. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/logots.jpg" type="image/x-icon">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Ini adalah bagian tubuh halaman web. -->
+
+  <!-- Untuk menampilkan header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>A</span>urora <span>A</span>quilla</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <!-- Daftar menu navigasi -->
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Skills">Skills</a></li>
+            <li><a href="#projects" data-after="Portfolio">Portfolio</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Untuk menampilkan nama -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Aurora <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Untuk menampilkan skills/keahlian -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Skil<span>i</span>ls</h1>
+        <p>Mungkin ini sedikit skill yang bisa saya gunakan.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="./img/html.png" /></div>
+          <h2>HTML</h2>
+          <p>80%</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/figma.png" /></div>
+          <h2>Figma</h2>
+          <p>80%</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/psd.png" /></div>
+          <h2>Photoshop</h2>
+          <p>80%</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/mvsc" /></div>
+          <h2>Microsoft Visual Studio</h2>
+          <p>80%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Untuk menampilkan projek/portof yang sudah di buat -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Portfolio</span></h1>
+      </div>
+      <div class="all-projects">
+        <!-- Daftar proyek/portfolio -->
+        <div class="project-item">
+          <!-- Informasi proyek -->
+          <div class="project-info">
+            <h1>Latihan Formulir</h1>
+            <h2>Visual Studio Code</h2>
+            <p>Di project saya membuat formulir dengan menggunakan html.</p>
+          </div>
+          <!-- Gambar proyek -->
+          <div class="project-img">
+            <img src="./img/formulir.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Kalkulator Sederhana</h1>
+            <h2>Visual Studio 2022</h2>
+            <p>Membuat Kalkulator Sederhana menggunakan bahasa pemrograman c#</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/kalkulator.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Biodata</h1>
+            <h2>Visual  Studio Code</h2>
+            <p>Membuat project biodata dengan menggunakan html.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/biodata.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Latihan CSS</h1>
+            <h2>Visual  Studio Code</h2>
+            <p>Membuat project HTML dan CSS jika tulisan klik di sini nanti akan masuk ke link tersebut. </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/css.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Re-design Logo</h1>
+            <h2>Photoshop</h2>
+            <p>Saya re-design logo IKEA dengan menggunakan photoshop.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/ikea.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Tentang Saya -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/rora.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <!-- Informasi tentang saya -->
+        <p>Hallo, nama saya Aurora Aquilla Pramesti, saya sekolah di SMK Telkom Purwokerto. Saya di Jurusan PPLG (Pengembangan Perangkat Lunak dan GIM) dan saya menepati di kelas
+           XI PPLG 5. Saya sudah belajar banyak hal mengenai c#, html, ai, figma, photoshop dll. </p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+ 
+
+  <!-- Untuk menampilkan kontak  -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+62 821 3527 8433</h2>
+            <h2>+62 821 3527 8433</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>auroraaquilla10@gmail.com</h2>
+            <h2>auroraaquilla10@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Purwokerto</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Untuk menampilkan Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>A</span>urora <span>A</span>urora</h1>
+      </div>
+      <h2>Sosial Media saya</h2>
+      <div class="social-icon">
+        <!-- Tautan media sosial -->
+        <div class="social-item">
+          <a href="https://www.facebook.com/aurora.a.pramesti/"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/aquiiillaa/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Script JavaScript -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
